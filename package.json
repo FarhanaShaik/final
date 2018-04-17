@@ -2,6 +2,7 @@
   "name": "final",
   "version": "1.0.0",
   "description": "",
+  "private":"false",
     "homepage":"https://farhanashaik.github.io/final/",
   "main": "index.js",
   "scripts": {
