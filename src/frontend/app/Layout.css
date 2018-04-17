@@ -1,3 +1,42 @@
 .displayContainer{
-  background-color: blue;
+    background-color:#FFFFFF;
+    margin:3vw 16vw 5vw 16vw;
+    min-height:600px;
+    overflow: hidden;
+}
+.exploreDiv{
+  width:100%;
+  height:20vw;
+  background-color:#ECEFF1;
+  margin-top:28vw;
+  margin-bottom:-5vw;
+}
+
+.exploreCard1{
+  width:18%;
+  height:6vw;
+  background-color:#039BE5;
+  text-align: center;
+  color:white;
+  padding-top:0.5vw;
+  margin-top:-1.5vw;
+  margin-left:30vw;
+  margin-bottom:10vw;
+}
+.exploreCard2{
+  width:18%;
+  height:6vw;
+  background-color:white;
+  text-align:center;
+  padding-top:0.3vw;
+  color:#039BE5;
+  margin-top:-1.5vw;
+  margin-left:6vw;
+  margin-bottom:10vw;
+}
+.iconStyle{
+  padding-bottom:1vw;
+}
+.hyperLinkLogin{
+  color:white !important;
 }

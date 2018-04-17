@@ -1,13 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {displayContainer} from "./Layout.css";
+
+import {FirstPage} from "./FirstPage";
+
 class App extends React.Component {
   render () {
     return (
-      <div className={displayContainer}>
-      <p> Hello, World! Welcome to Acsestech</p>
-      <p>Welcome to programming</p>
-      </div>
+    <div>Hello<div>
     );
   }
 }
