@@ -1,12 +1,22 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {CompanyDetails} from "./settings/CompanyDetails";
+import {HashRouter as Router, Route,Link} from "react-router-dom";
+import {Footer} from "./Footer";
+import {FirstPage} from "./FirstPage";
+import {Header1} from "./Header1";
+
+
 export class App extends React.Component {
   render () {
     return (
-    <div>Hello1
-    <CompanyDetails/>
+      <Router>
+    <div>
+
+  <Header1/>
+  <Route path="/FirstPage" component={FirstPage}/>
+    <Footer/>
     </div>
+    </Router>
     );
   }
 }
